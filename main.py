@@ -6,10 +6,11 @@ print('''RULES
 1. Hit any balloons you want on the night background, but keep track of them, because in the future you are going to need to remember those
 2. On the day background, hit the same balloons you hit on the night background
 3. If you hit the correct balloons, you get a point
-4. Hit different balloons each time you're on the night background! Don't hit the same balloon, (unless you really want to cheat)
+4. Hit different balloons each time you're on the night background! Don't hit the same balloon, (unless you really want to cheat your brain)
 Haven't found a way to stop that yet :(
 
 ''')
+print("Sorry, it's taking a minute...")
 
 pg.init()
 
