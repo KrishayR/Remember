@@ -121,7 +121,7 @@ def make_bullets():
 def you_lost():
     youlost = myfont.render("YOU LOST!", 1, (0,0,0))
     message1 = myfont.render("Your memory is kinda garbage, sorry", 1, (0,0,0))
-    message2 = myfont.render("If I 'Remember' correctly, /n you only got a 4", 1, (0,0,0))
+    message2 = myfont.render("If I 'Remember' correctly, you only got a 4", 1, (0,0,0))
     message3 = myfont.render("Good job! You have great memory!", 1, (0,0,0))
     screen.blit(youlost, (230, 150))
     if score <= 3:
